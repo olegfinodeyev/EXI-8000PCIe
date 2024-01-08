@@ -24,23 +24,6 @@
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="1553Px Labview VIs" Type="Folder">
-			<Item Name="PCI_and_UNET_DLLS" Type="Folder">
-				<Item Name="Exc1553Px.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/Exc1553Px.dll"/>
-				<Item Name="Exc1553PxMs.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/Exc1553PxMs.dll"/>
-				<Item Name="exc4000.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/exc4000.dll"/>
-				<Item Name="Exc4000Ms.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/Exc4000Ms.dll"/>
-				<Item Name="ExcDiscr.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/ExcDiscr.dll"/>
-				<Item Name="ExcDiscrMs.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/ExcDiscrMs.dll"/>
-				<Item Name="ExcSWToolsForLV.ini" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/ExcSWToolsForLV.ini"/>
-				<Item Name="ExcUnetMs.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/ExcUnetMs.dll"/>
-				<Item Name="frontdesk.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/frontdesk.dll"/>
-				<Item Name="ftd2xx.dll" Type="Document" URL="../1553Px Labview VIs/PCI_and_UNET_DLLS/ftd2xx.dll"/>
-			</Item>
-			<Item Name="ExcSWToolsForLV.ini" Type="Document" URL="../1553Px Labview VIs/ExcSWToolsForLV.ini"/>
-			<Item Name="Exc1553Px_LV_Dispatcher.dll" Type="Document" URL="../1553Px Labview VIs/Exc1553Px_LV_Dispatcher.dll"/>
-			<Item Name="Exc1553Px.dll" Type="Document" URL="../1553Px Labview VIs/Exc1553Px.dll"/>
-		</Item>
 		<Item Name="EXI-8000PCIe.vi" Type="VI" URL="../EXI-8000PCIe.vi"/>
 		<Item Name="EXI-8000PCIe.cfg" Type="Document" URL="../EXI-8000PCIe.cfg"/>
 		<Item Name="EXI-8000PCIe.ini" Type="Document" URL="../EXI-8000PCIe.ini"/>
@@ -180,10 +163,6 @@
 			<Item Name="VI server_Set Controls Property from String Format_Array Input.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/VI Server Toolkit/VI Server_SetControls/VI server_Set Controls Property from String Format_Array Input.vi"/>
 			<Item Name="Configuration ~ Read String.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/CFG Management/Configuration File Drivers.llb/Configuration ~ Read String.vi"/>
 			<Item Name="Error 110_UDP.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/Errors Management.llb/Error 110_UDP.vi"/>
-			<Item Name="ExcM4kP CreateFlagArray.vi" Type="VI" URL="../1553Px Labview VIs_XXX/Detention/1553Gen.llb/ExcM4kP CreateFlagArray.vi"/>
-			<Item Name="ExcM4kP Err Util.vi" Type="VI" URL="../1553Px Labview VIs_XXX/Detention/1553Gen.llb/ExcM4kP Err Util.vi"/>
-			<Item Name="Get Default DLL Name.vi" Type="VI" URL="../1553Px Labview VIs_XXX/Detention/1553ProductSpecific.llb/Get Default DLL Name.vi"/>
-			<Item Name="Get Ini File Section Name.vi" Type="VI" URL="../1553Px Labview VIs_XXX/Detention/1553ProductSpecific.llb/Get Ini File Section Name.vi"/>
 			<Item Name="Configuration_GetKeyNames.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/CFG Management/Configuration File Drivers.llb/Configuration_GetKeyNames.vi"/>
 			<Item Name="Configuration ~ Write Strng To CFG File.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/CFG Management/Configuration File Drivers.llb/Configuration ~ Write Strng To CFG File.vi"/>
 			<Item Name="VI Server_CtlRef_Generic_Get.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/VI Server Toolkit/VI Server_GetControls/VI Server_CtlRef_Generic_Get.vi"/>
@@ -287,8 +266,10 @@
 			<Item Name="NI_USB6343_AO_ConfigurationAttributes.ctl" Type="VI" URL="../../NI-USB6343/SubVIs/NI_USB6343_TypeDefinitions.llb/NI_USB6343_AO_ConfigurationAttributes.ctl"/>
 			<Item Name="Merge Errors w_o Warning.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/MIscellaneous VIs.llb/Merge Errors w_o Warning.vi"/>
 			<Item Name="CFG_File_Refnam_Empty.vi" Type="VI" URL="../../../../../../LabVIEW 2020 Toolkits/toolkits_lv2020_32bit/CFG Management/Configuration File Drivers.llb/CFG_File_Refnam_Empty.vi"/>
-			<Item Name="ExcM4kP Get Error String.vi" Type="VI" URL="../1553Px Labview VIs_XXX/Detention/1553Gen.llb/ExcM4kP Get Error String.vi"/>
-			<Item Name="Exc1553Px_LV_Dispatcher.dll" Type="Document" URL="../1553Px Labview VIs_XXX/Exc1553Px_LV_Dispatcher.dll"/>
+			<Item Name="Exc1553Px_LV_Dispatcher.dll" Type="Document" URL="../Exc1553Px_LV_Dispatcher.dll"/>
+			<Item Name="Exc1553Px_LV_Dispatcher.dll   " Type="Document" URL="Exc1553Px_LV_Dispatcher.dll   ">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EXI-8000PCIe_Application" Type="EXE">
@@ -342,25 +323,25 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/1553Px Labview VIs/Exc1553Px_LV_Dispatcher.dll</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/1553Px Labview VIs/Exc1553Px.dll</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/Exc1553Px.dll</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/Exc1553PxMs.dll</Property>
+				<Property Name="Source[13].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/exc4000.dll</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/Exc4000Ms.dll</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/ExcDiscr.dll</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/ExcDiscrMs.dll</Property>
+				<Property Name="Source[17].itemID" Type="Ref"></Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/ExcSWToolsForLV.ini</Property>
+				<Property Name="Source[18].itemID" Type="Ref"></Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/ExcUnetMs.dll</Property>
+				<Property Name="Source[19].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -368,9 +349,9 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/frontdesk.dll</Property>
+				<Property Name="Source[20].itemID" Type="Ref"></Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">5</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/1553Px Labview VIs/PCI_and_UNET_DLLS/ftd2xx.dll</Property>
+				<Property Name="Source[21].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -390,11 +371,11 @@
 				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/1553Px Labview VIs</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/1553Px Labview VIs/ExcSWToolsForLV.ini</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="SourceCount" Type="Int">22</Property>
 				<Property Name="TgtF_companyName" Type="Str">Magic Leap</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">EXI-8000PCIe_Application</Property>
